@@ -1,0 +1,14 @@
+"""
+import pymysql
+connection=None
+cursor=None
+try:
+  ....
+except Exception as e:
+  ....
+finally:
+  if cursor:
+    cursor.close()
+  if connection:
+    cursor.close()
+"""
